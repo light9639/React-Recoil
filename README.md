@@ -1,6 +1,7 @@
 # :zap: React, Recoil 사용 예제
 :octocat: https://light9639.github.io/React-Recoil/
 
+![127 0 0 1_5500_React-Recoil_dist_index html](https://user-images.githubusercontent.com/95972251/201916379-e920630a-753b-4799-89b8-b3cd0f3c394e.png)
 
 :sparkles: Recoil를 이용하여 만든 숫자 증가, 감소 예제입니다. :sparkles:
 ## :tada: React 생성
@@ -21,7 +22,7 @@ yarn create vite
 yarn add recoil
 ```
 
-## ✒️ App.jsx 작성
+## ✒️ Count.jsx, Counter.jsx, App.jsx, state.js 작성
 ### :zap: Count.jsx
 ```bash
 import React from 'react';
@@ -37,7 +38,7 @@ const Count = () => {
 export default Count;
 ```
 
-### :zap: Countr.jsx
+### :zap: Counter.jsx
 ```bash
 import React from 'react';
 import { useRecoilState } from 'recoil';
@@ -120,7 +121,6 @@ export const charCountState = selector({
         return text.length;
     }
 });
-
 ```
 
 ## 📎 출처
