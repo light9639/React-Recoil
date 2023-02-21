@@ -41,7 +41,7 @@ export default Count;
 
 ### :zap: Counter.jsx
 - `Count.jsx`는 `input` 속의 내용이 몇글자인지를 파악하여 화면에 나타내는 컴포넌트인데, 이 컴포넌트를 가져와서 맨 아래 위치시킨다.
-- `TextInput` 컴포넌트는 밑에 만들어 놓는다. 이 컴포넌트는 input 속 내용이 바뀔 때마다 값을 변화시키고, 그 값을 화면에 나타나게 한다.
+- `TextInput` 컴포넌트는 밑에 만들어 놓는다. 이 컴포넌트는 `input` 속 내용이 바뀔 때마다 값을 변화시키고, 그 값을 화면에 나타나게 한다.
 ```bash
 import React from 'react';
 import { useRecoilState } from 'recoil';
